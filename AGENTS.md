@@ -1,7 +1,7 @@
 # AGENTS.md — working on Real-Me Photo (留覓)
 
 Instructions for AI coding agents (Antigravity, Claude Code, Codex, Cursor, Windsurf, Copilot…) and for humans who want the short version.
-User-facing documentation lives in [README.md](README.md) ([繁體中文](README.zh-TW.md) · [简体中文](README.zh-CN.md)).
+User-facing documentation lives in [README.md](README.md) ([繁體中文](README.zh-TW.md) · [简体中文](README.zh-CN.md) · [日本語](README.ja.md) · [한국어](README.ko.md)).
 
 ## What this is
 
@@ -31,6 +31,8 @@ Plus an automated dual-environment installer ([install/INSTALL.md](install/INSTA
 README.md                 English documentation
 README.zh-TW.md           Traditional Chinese documentation (繁體中文)
 README.zh-CN.md           Simplified Chinese documentation (简体中文)
+README.ja.md              Japanese documentation (日本語)
+README.ko.md              Korean documentation (한국어)
 AGENTS.md                 AI coding agent instructions & project invariants
 LICENSE                   MIT License
 install/
@@ -51,13 +53,13 @@ skills/
 3. **Status Header & Dual-Track Execution.** Every triggered skill reply must begin with `[Real-Me]: <skill-name>` (or `[Real-Me]: <skill-A> + <skill-B>` when composed) on the very first line, invoke the environment's image tool when available, and always output structured bilingual (Chinese + English) prompts.
 4. **Progressive Disclosure.** Keep each `SKILL.md` focused on activation triggers, core guardrails, prompt templates, and delivery steps. Deep parameter tables, presets, and multi-panel storyboards belong in `references/*.md`.
 5. **Agent-Read English vs. Human-Read Chinese Parity.** AI skill loaders strictly parse `SKILL.md` and `references/<name>.md` (English), while `install/install.sh` strips `*.zh-TW.md` during installation. Whenever you modify a skill's logic or templates, update **both** the English `.md` and the companion `.zh-TW.md`, as well as the condensed memory rules in [install/INSTALL.md](install/INSTALL.md).
-6. **Three-Language README Sync.** Any change to skill behavior, installation commands, or feature descriptions must be updated across [README.md](README.md), [README.zh-TW.md](README.zh-TW.md), and [README.zh-CN.md](README.zh-CN.md).
+6. **Multi-Language README Sync.** Any change to skill behavior, installation commands, or feature descriptions must be updated across [README.md](README.md), [README.zh-TW.md](README.zh-TW.md), [README.zh-CN.md](README.zh-CN.md), [README.ja.md](README.ja.md), and [README.ko.md](README.ko.md).
 7. **No secrets, local paths, or personal photos in commits.** Do not commit private user photos, hardcoded `/home/...` paths, or API keys anywhere in docs, skills, or scripts.
 
 ## Before you say "done"
 
 - [ ] Every `skills/*/SKILL.md` has valid YAML frontmatter (`name` matches directory name, `description` includes both EN & ZH trigger phrases)
 - [ ] Changes to skill behavior are synced across `SKILL.md`, `SKILL.zh-TW.md`, `references/*.md`, `references/*.zh-TW.md`, and `install/INSTALL.md`
-- [ ] User-visible changes are synced across `README.md`, `README.zh-TW.md`, and `README.zh-CN.md`
+- [ ] User-visible changes are synced across `README.md`, `README.zh-TW.md`, `README.zh-CN.md`, `README.ja.md`, and `README.ko.md`
 - [ ] `bash -n install/install.sh` passes with zero errors
 - [ ] Scratch install test (`bash install/install.sh --target "$TMP_DIR"`) copies all 5 skills cleanly and removes `*.zh-TW.md` from the target directory

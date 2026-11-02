@@ -1,8 +1,8 @@
 # Real-Me Photo
 
-**English** · [繁體中文](README.zh-TW.md) · [简体中文](README.zh-CN.md)
+**English** · [繁體中文](README.zh-TW.md) · [简体中文](README.zh-CN.md) · [日本語](README.ja.md) · [한국어](README.ko.md)
 
-[![GitHub stars](https://img.shields.io/github/stars/jhjhong/real-me-photo?style=flat&logo=github&label=Stars)](https://github.com/jhjhong/real-me-photo/stargazers) [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE) [![Agent Skills: 5](https://img.shields.io/badge/Skills-5-ff6fa8)](skills/) [![Modules: 12+9](https://img.shields.io/badge/Modules-12%2B9-ff8a65)](skills/real-me-portrait/references/photography-9-modules.md) [![Agents: Antigravity | Claude | Codex | ChatGPT](https://img.shields.io/badge/Agents-Antigravity%20%7C%20Claude%20%7C%20Codex%20%7C%20ChatGPT-0078D6)](#installation) [![Languages: 3](https://img.shields.io/badge/Languages-3-8e7cc3)](README.zh-TW.md) [![Zero CLI: Paste Prompt](https://img.shields.io/badge/Install-Paste%20Prompt-2e7d32)](#installation)
+[![GitHub stars](https://img.shields.io/github/stars/jhjhong/real-me-photo?style=flat&logo=github&label=Stars)](https://github.com/jhjhong/real-me-photo/stargazers) [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE) [![Agent Skills: 5](https://img.shields.io/badge/Skills-5-ff6fa8)](skills/) [![Modules: 12+9](https://img.shields.io/badge/Modules-12%2B9-ff8a65)](skills/real-me-portrait/references/photography-9-modules.md) [![Agents: Antigravity | Claude | Codex | ChatGPT](https://img.shields.io/badge/Agents-Antigravity%20%7C%20Claude%20%7C%20Codex%20%7C%20ChatGPT-0078D6)](#installation) [![Zero CLI: Paste Prompt](https://img.shields.io/badge/Install-Paste%20Prompt-2e7d32)](#installation)
 
 > **Stop turning into a generic AI influencer face—keep the real you in every frame.**
 
@@ -59,7 +59,9 @@ real-me-photo/
 ├── README.md          # English documentation
 ├── README.zh-TW.md    # Traditional Chinese documentation (繁體中文)
 ├── README.zh-CN.md    # Simplified Chinese documentation (简体中文)
-├── AGENTS.md          # AI agent contribution & Git rules
+├── README.ja.md       # Japanese documentation (日本語)
+├── README.ko.md       # Korean documentation (한국어)
+├── AGENTS.md          # AI agent contribution & project invariants
 ├── LICENSE            # MIT License
 ├── install/           # Automated agent installation runbook (INSTALL.md) & script (install.sh)
 └── skills/            # 5 modular AI portrait & retouching skills (real-me-*)
