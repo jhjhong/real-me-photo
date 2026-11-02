@@ -61,15 +61,16 @@ real-me-photo/
 ├── README.zh-CN.md    # Simplified Chinese documentation (简体中文)
 ├── README.ja.md       # Japanese documentation (日本語)
 ├── README.ko.md       # Korean documentation (한국어)
-├── AGENTS.md          # AI agent contribution & project invariants
-├── LICENSE            # MIT License
+├── AGENTS.md               # AI agent contribution & project invariants
+├── CONTRIBUTING[.zh-TW].md # Contributor guide (English & 繁體中文)
+├── LICENSE                 # MIT License
 ├── install/           # Automated agent installation runbook (INSTALL.md) & script (install.sh)
 └── skills/            # 5 modular AI portrait & retouching skills (real-me-*)
 ```
 
 ## Developers
 
-Repository layout: `skills/<skill-name>/SKILL.md` with progressive-disclosure knowledge bases in `skills/<skill-name>/references/`. Automated agent installation steps live in [install/INSTALL.md](install/INSTALL.md). Issues and PRs are welcome.
+Repository layout: `skills/<skill-name>/SKILL.md` with progressive-disclosure knowledge bases in `skills/<skill-name>/references/`. Automated agent installation steps live in [install/INSTALL.md](install/INSTALL.md). See [CONTRIBUTING.md](CONTRIBUTING.md) ([繁體中文](CONTRIBUTING.zh-TW.md)) and [AGENTS.md](AGENTS.md) before opening a PR.
 
 ## License
 

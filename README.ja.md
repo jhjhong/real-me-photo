@@ -54,7 +54,7 @@ AIエージェント向けに設計された、本人の顔立ちを厳密に保
 
 ## 開発者向け
 
-ディレクトリ構成や技術仕様の詳細は[英語版 README](README.md#project-layout) を参照してください。AIエージェントの自動インストール仕様は [install/INSTALL.md](install/INSTALL.md) に定義されています。Issue や PR を歓迎します。
+ディレクトリ構成や技術仕様の詳細は[英語版 README](README.md#project-layout) を参照してください。AIエージェントの自動インストール仕様は [install/INSTALL.md](install/INSTALL.md) に定義されています。コントリビュートや PR の前に [CONTRIBUTING.md](CONTRIBUTING.md)（[繁體中文](CONTRIBUTING.zh-TW.md)）および [AGENTS.md](AGENTS.md) をご覧ください。
 
 ## ライセンス
 

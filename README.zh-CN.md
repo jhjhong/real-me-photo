@@ -54,7 +54,7 @@
 
 ## 开发者
 
-跨平台挂载配置、目录结构与英文技术说明请看[英文版 README](README.md#project-layout)。AI Agent 自动安装流程定义于 [install/INSTALL.md](install/INSTALL.md)。欢迎 issue 和 PR。
+跨平台挂载配置、目录结构与英文技术说明请看[英文版 README](README.md#project-layout)。AI Agent 自动安装流程定义于 [install/INSTALL.md](install/INSTALL.md)。参与开发与提交 PR 前请先阅读 [CONTRIBUTING.zh-TW.md](CONTRIBUTING.zh-TW.md)（[English](CONTRIBUTING.md)）与 [AGENTS.md](AGENTS.md)。
 
 ## 授权
 

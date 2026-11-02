@@ -1,7 +1,7 @@
 # AGENTS.md — working on Real-Me Photo (留覓)
 
 Instructions for AI coding agents (Antigravity, Claude Code, Codex, Cursor, Windsurf, Copilot…) and for humans who want the short version.
-User-facing documentation lives in [README.md](README.md) ([繁體中文](README.zh-TW.md) · [简体中文](README.zh-CN.md) · [日本語](README.ja.md) · [한국어](README.ko.md)).
+The long-form contributor guide is [CONTRIBUTING.md](CONTRIBUTING.md) ([繁體中文](CONTRIBUTING.zh-TW.md)). User-facing documentation lives in [README.md](README.md) ([繁體中文](README.zh-TW.md) · [简体中文](README.zh-CN.md) · [日本語](README.ja.md) · [한국어](README.ko.md)).
 
 ## What this is
 
@@ -34,6 +34,7 @@ README.zh-CN.md           Simplified Chinese documentation (简体中文)
 README.ja.md              Japanese documentation (日本語)
 README.ko.md              Korean documentation (한국어)
 AGENTS.md                 AI coding agent instructions & project invariants
+CONTRIBUTING[.zh-TW].md   Contributor guide (English & 繁體中文)
 LICENSE                   MIT License
 install/
   INSTALL.md              Agent runbook (Environment A: Local CLI/IDE vs. Environment B: Web/App Memory)

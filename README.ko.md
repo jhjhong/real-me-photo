@@ -54,7 +54,7 @@ AI 에이전트를 위해 설계된 실제 인물 정체성 고정(Identity-Lock
 
 ## 개발자 안내
 
-디렉터리 구조 및 영문 기술 명세는 [영문판 README](README.md#project-layout)를 참고하세요. AI 에이전트 자동 설치 절차는 [install/INSTALL.md](install/INSTALL.md)에 정의되어 있습니다. Issue와 PR을 환영합니다.
+디렉터리 구조 및 영문 기술 명세는 [영문판 README](README.md#project-layout)를 참고하세요. AI 에이전트 자동 설치 절차는 [install/INSTALL.md](install/INSTALL.md)에 정의되어 있습니다. 기여 및 PR 작성 전 [CONTRIBUTING.md](CONTRIBUTING.md)([繁體中文](CONTRIBUTING.zh-TW.md))와 [AGENTS.md](AGENTS.md)를 확인해 주세요.
 
 ## 라이선스
 
